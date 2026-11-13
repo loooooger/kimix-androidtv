@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "tmdb": {
+    "api": "https://api.themoviedb.org/3",
+    "image": "https://image.tmdb.org/t/p"
+  },
+  "filmixServersUrl": "http://ap.gnft.pro/server.json",
+  "providers": {
+    "anidub": {
+      "enabled": true,
+      "host": "https://online.anidub.com"
+    },
+    "anilibria": {
+      "enabled": true,
+      "host": "https://api.anilibria.app"
+    },
+    "animedia": {
+      "enabled": true,
+      "host": "https://amd.online"
+    },
+    "animevost": {
+      "enabled": true,
+      "host": "https://animevost.org"
+    },
+    "cdnvideohub": {
+      "enabled": true,
+      "host": "https://plapi.cdnvideohub.com"
+    },
+    "collaps": {
+      "enabled": true,
+      "host": "https://api.luxembd.ws"
+    },
+    "dreamerscast": {
+      "enabled": true,
+      "host": "https://dreamerscast.com"
+    },
+    "filmix": {
+      "enabled": true
+    },
+    "kinogo": {
+      "enabled": true,
+      "host": "https://kinogo.film"
+    },
+    "kinopub": {
+      "enabled": true,
+      "host": "https://api.service-kp.com"
+    },
+    "kinoteatrkg": {
+      "enabled": true,
+      "host": "https://kinoteatr.kg"
+    },
+    "kodik": {
+      "enabled": false,
+      "host": "https://kodik-api.com",
+      "token": "41dd95f84c21719b09d6c71182237a25"
+    },
+    "rudub": {
+      "enabled": true,
+      "host": "https://play26.ru-dub.xyz"
+    },
+    "zetflix": {
+      "enabled": true,
+      "host": "https://54243ba5.obrut.show"
+    },
+    "veoveo": {
+      "enabled": false,
+      "host": "https://api.rstprgapipt.com",
+      "extra": {
+        "dbUrl": "https://raw.githubusercontent.com/immisterio/Lampac/main/Core/data/veoveo.json"
+      }
+    }
+  },
+  "torrents": {
+    "apibay": {
+      "enabled": true,
+      "host": "https://apibay.org"
+    },
+    "jacred": {
+      "enabled": false,
+      "host": "https://jac.red"
+    },
+    "nyaa": {
+      "enabled": true,
+      "host": "https://nyaa.si"
+    },
+    "rutor": {
+      "enabled": true,
+      "host": "http://rutor.info"
+    }
+  },
+  "minAppVersion": 0
+}
